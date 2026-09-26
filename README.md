@@ -97,33 +97,16 @@ Your app data and settings should remain intact when updating normally.
 
 ## What's New
 
-### Latest Release
+### Latest Release — 1.1.927
 
-- Added native **Plex and Jellyfin support** for easier server discovery, setup, and playback.
-- Added **Remove from Library**, allowing songs to be hidden from Sonetro without deleting the original files.
-- Improved library management with clearer confirmation for individual and bulk removals.
-- Improved permanent file deletion with safer Android system handling.
-- Added a new **heart shower animation** and refined favorite transitions.
-- Added support for **custom song and artist background images**.
-- Improved heading responsiveness across different screen sizes and accessibility font settings.
-- Improved playback resume behavior and reconnection reliability.
-- Improved **Up Next** predictions so they update according to the duration of the current track.
-- Added **Black, White, Coral, and Indigo** accent colors.
-- Improved interface contrast for neutral and dynamic accent colors.
-- Renamed **Look** to **Appearance** in Settings.
-- Improved library selection for self-hosted music servers.
-- Improved local network compatibility for Plex, Jellyfin, Subsonic, and similar servers.
-- Redesigned the home screen widget system with **19 adaptive layouts**.
-- Added the circular **Vinyl** widget.
-- Added smoother, high-frequency widget playback progress.
-- Improved widget performance and memory usage.
-- Improved widget artwork loading, retries, and duplicate request handling.
-- Improved remote Subsonic artwork support.
-- Added a **Windows Phone 7-inspired contextual dialog animation**.
-- Improved dialog dimming across system bars and different screen sizes.
-- Improved widget typography, progress rendering, artwork persistence, and dynamic theming.
-- Improved widget and playback recovery after service restarts.
-- Various performance, stability, playback, library, animation, and visual improvements.
+- Redesigned Home with smoother panoramic scrolling and more responsive movement.
+- Added wider History and New screens with tiles in multiple sizes.
+- Added a featured History tile that shows whether a song is playing or paused.
+- Song taps in History, New, and library lists start playback and open Live with a smooth transition.
+- Improved Home layouts for different screen sizes and display settings.
+- Aligned headings, tiles, and navigation arrows throughout Home.
+- Refined text size and spacing in History and New.
+- Simplified song indicators: cloud music shows a cloud icon, while local music has no icon.
 
 ---
 
