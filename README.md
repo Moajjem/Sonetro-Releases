@@ -35,11 +35,11 @@ Playback continues in the background through a media session service. Library di
 
 <p align="center">
   <a href="https://github.com/Moajjem/Sonetro-Releases/releases/download/v1.1.929/Sonetro-1.1.929-demo.mp4">
-    <img src="assets/demo-preview.jpg" width="560" alt="Watch Sonetro in action">
+    <img src="assets/demo-preview.gif" width="320" alt="Animated Sonetro demo">
   </a>
 </p>
 
-<p align="center"><a href="https://github.com/Moajjem/Sonetro-Releases/releases/download/v1.1.929/Sonetro-1.1.929-demo.mp4"><strong>▶ Watch Sonetro in action</strong></a></p>
+<p align="center"><a href="https://github.com/Moajjem/Sonetro-Releases/releases/download/v1.1.929/Sonetro-1.1.929-demo.mp4"><strong>▶ Watch the full demo</strong></a></p>
 
 <p align="center"><strong>Live</strong> · <strong>Collection</strong> · <strong>History</strong> · <strong>New</strong></p>
 
