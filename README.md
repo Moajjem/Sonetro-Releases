@@ -33,12 +33,7 @@ Playback continues in the background through a media session service. Library di
 
 ## Meet your music
 
-<p align="center">
-  <a href="assets/screenshots/live.webp"><img src="assets/screenshots/live.webp" width="205" alt="Live playback screen with artwork and transport controls"></a>
-  <a href="assets/screenshots/collection.webp"><img src="assets/screenshots/collection.webp" width="205" alt="Collection screen with music, folders, artists, albums, playlists, and offline music"></a>
-  <a href="assets/screenshots/history.webp"><img src="assets/screenshots/history.webp" width="205" alt="History panorama with a featured playing tile and smaller artwork tiles"></a>
-  <a href="assets/screenshots/new.webp"><img src="assets/screenshots/new.webp" width="205" alt="New music panorama with mixed-size album artwork tiles"></a>
-</p>
+
 
 <p align="center"><strong>Live</strong> · <strong>Collection</strong> · <strong>History</strong> · <strong>New</strong></p>
 
