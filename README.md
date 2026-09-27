@@ -34,12 +34,8 @@ Playback continues in the background through a media session service. Library di
 ## Meet your music
 
 <p align="center">
-  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/download/v1.1.929/Sonetro-1.1.929-demo.mp4">
-    <img src="assets/demo-preview.gif" width="320" alt="Animated Sonetro demo">
-  </a>
+  <img src="assets/demo-preview.gif" width="320" alt="Sonetro animated demo">
 </p>
-
-<p align="center"><a href="https://github.com/Moajjem/Sonetro-Releases/releases/download/v1.1.929/Sonetro-1.1.929-demo.mp4"><strong>▶ Watch the full demo</strong></a></p>
 
 <p align="center"><strong>Live</strong> · <strong>Collection</strong> · <strong>History</strong> · <strong>New</strong></p>
 
