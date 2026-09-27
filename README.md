@@ -24,7 +24,7 @@ Playback continues in the background through a media session service. Library di
 <p align="center">
   <a href="https://github.com/Moajjem/Sonetro-Releases/releases/latest"><strong>Download the latest release</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.927">See what’s new</a>
+  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.929">See what’s new</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Moajjem/Sonetro-Releases/issues">Get help</a>
 </p>
@@ -49,7 +49,7 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 | | |
 | --- | --- |
 | Platform | Android 6.0 or newer |
-| Current release | [1.1.927](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.927) |
+| Current release | [1.1.929](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.929) |
 | Distribution | Signed APK in the [Releases](https://github.com/Moajjem/Sonetro-Releases/releases) section |
 | Account | No Sonetro account required |
 
@@ -76,6 +76,7 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 - Choose appearance and accent colors, and use artwork in the app background.
 - Add custom song or artist background images.
 - Add adaptable home screen widgets with artwork, transport controls, and playback progress.
+- Browse Settings with a category sidebar on wide screens, or the familiar swipeable layout on regular phones.
 - Use layouts that respond to screen size, display density, and text settings.
 
 ## Install or update
@@ -86,10 +87,10 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 
 To update, install the newer signed APK over the existing app. Keep the installed app in place if you want to retain its data and settings. Android accepts an in-place update only when the APK has the same application ID, a compatible signing certificate, and a suitable version code.
 
-**Release 1.1.927 verification:** SHA-256 of `Sonetro-1.1.927-release.apk`:
+**Release 1.1.929 verification:** SHA-256 of `Sonetro-1.1.929-release.apk`:
 
 ```text
-d26be39c7b15658eabfbd5bed4c9a6711937d7fab85f76eb3a3713f0e99b73f3
+1ebcb7ee6b3b5b1bd49de5b380ac491a54904ceedcd775d32ca60b157ce7bd39
 ```
 
 ## How Sonetro is built
@@ -132,16 +133,15 @@ Sonetro has no app account requirement, advertising SDK, or analytics SDK. Libra
 
 Android may ask for access to audio files and notifications. Background playback uses a foreground media service. Deleting or changing local files may trigger an Android system confirmation. Grant only the permissions needed for the features you use.
 
-## What's new in 1.1.927
+## What's new in 1.1.929
 
-- Redesigned Home with smoother panoramic scrolling.
-- Added wider History and New views with mixed-size music tiles.
-- Added a featured History tile with playing and paused status.
-- Made song taps in Home tiles and library lists start playback and open Live with a smooth transition.
-- Improved layout, alignment, and typography across screen sizes.
-- Simplified source indicators: cloud tracks show a cloud icon; local tracks have no icon.
+- History and New adapt to unfolded and landscape screens with large, wide, and small artwork tiles and consistent gaps.
+- Settings uses a category sidebar and a readable-width detail panel on wider screens; regular phone layouts retain their familiar navigation.
+- Long-press a History tile and choose **Remove** to remove its history entry while keeping the song, library, and playback intact.
+- Widget artwork preserves its proportions, with coordinated sizing for controls and touch targets.
+- Refined Home artwork alignment and the developer credit's typography.
 
-[Read the full release notes and download 1.1.927](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.927)
+[Read the full release notes and download 1.1.929](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.929)
 
 ## Help and feedback
 
