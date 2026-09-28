@@ -133,15 +133,12 @@ Android may ask for access to audio files and notifications. Background playback
 
 ## What's new in 1.1.933
 
-- Embedded and online lyrics discovery, playback-based highlighting for timed lyrics, and device imports with replace/remove actions from the **lyrics** heading.
-- Verified artist portraits, refreshed artwork caches, and background-loading improvements that trigger the entrance when the image is ready.
-- Brighter artist backgrounds with a 5% lower black gradient; a 2160-pixel longest-edge cap, shared cached bitmaps, and background image processing support smooth parallax scrolling.
-- Queue song taps open Live with the existing transition.
-- **Favorite songs** and **Most played** appear above custom playlists; favorites use the app's heart without a circle.
-- Supplied repeat and repeat-one artwork, active shuffle/repeat colors matching transport controls, and corrected drawer icon clipping.
-- Corrected window sizing and opaque theme-matched backgrounds let **FILTER BY** and **ADD TO** cover the entire display, including system bars.
+- Better lyrics discovery, synchronized highlighting, and device import management.
+- Verified artist portraits, brighter backgrounds, and improved image loading.
+- Favorite songs and Most played in playlists, plus queue-to-Live navigation.
+- Updated repeat icons, drawer fixes, and full-screen dialogs.
 
-[Read the full release notes and download 1.1.933](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.933)
+[Release notes and download](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.933)
 
 ## Help and feedback
 
