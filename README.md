@@ -133,10 +133,11 @@ Android may ask for access to audio files and notifications. Background playback
 
 ## What's new in 1.1.933
 
-- Better lyrics discovery, synchronized highlighting, and device import management.
-- Verified artist portraits, brighter backgrounds, and improved image loading.
-- Favorite songs and Most played in playlists, plus queue-to-Live navigation.
-- Updated repeat icons, drawer fixes, and full-screen dialogs.
+The long-awaited **Now Playing queue list** and **lyrics** are here.
+
+- **Queue list:** view and manage upcoming songs, select and remove entries, and tap a song to play it and open Live.
+- **Lyrics:** embedded and online lyrics, synchronized highlighting, and device imports with replace/remove options.
+- Also includes improved artist backgrounds, Favorite songs and Most played in playlists, and interface refinements.
 
 [Release notes and download](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.933)
 
