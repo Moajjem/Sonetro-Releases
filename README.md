@@ -24,7 +24,7 @@ Playback continues in the background through a media session service. Library di
 <p align="center">
   <a href="https://github.com/Moajjem/Sonetro-Releases/releases/latest"><strong>Download the latest release</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.929">See what’s new</a>
+  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.933">See what’s new</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Moajjem/Sonetro-Releases/issues">Get help</a>
 </p>
@@ -46,7 +46,7 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 | | |
 | --- | --- |
 | Platform | Android 6.0 or newer |
-| Current release | [1.1.929](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.929) |
+| Current release | [1.1.933](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.933) |
 | Distribution | Signed APK in the [Releases](https://github.com/Moajjem/Sonetro-Releases/releases) section |
 | Account | No Sonetro account required |
 
@@ -58,6 +58,7 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 - Continue listening in the background with notification, lock screen, headset, and compatible car controls.
 - Use the Live player, mini-player, queue, seeking, shuffle, repeat, and playback controls.
 - Resume the current track and queue after an interruption or app restart.
+- View embedded or online lyrics, follow timestamped lines, and import, replace, or remove custom lyrics from the lyrics heading.
 - Adjust playback with equalizer presets and other audio settings.
 
 ### Explore your library
@@ -84,10 +85,10 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 
 To update, install the newer signed APK over the existing app. Keep the installed app in place if you want to retain its data and settings. Android accepts an in-place update only when the APK has the same application ID, a compatible signing certificate, and a suitable version code.
 
-**Release 1.1.929 verification:** SHA-256 of `Sonetro-1.1.929-release.apk`:
+**Release 1.1.933 verification:** SHA-256 of `Sonetro-1.1.933-release.apk`:
 
 ```text
-1ebcb7ee6b3b5b1bd49de5b380ac491a54904ceedcd775d32ca60b157ce7bd39
+eacaf4c9192a58ee925e3091acfc37f188b67a9d8613a02303a73a7b9d22967a
 ```
 
 ## How Sonetro is built
@@ -122,23 +123,24 @@ This is an architectural overview of the app, not a claim that this releases rep
 
 Device music is available after granting Android's audio access permission. Personal server access is optional and requires a server you can reach from your device. Server authentication, library selection, and offline downloads are managed in the app's settings.
 
-A network connection is needed for server discovery, streaming, and synchronization. Tracks downloaded for offline listening remain available when the server is unreachable. Availability can depend on the file, server configuration, connection, and Android device.
+A network connection is needed for server discovery, streaming, synchronization, online lyrics from LRCLIB, and artist-portrait lookup through MusicBrainz and TheAudioDB. Tracks downloaded for offline listening remain available when the server is unreachable. Availability can depend on the file, server configuration, connection, and Android device.
 
 ## Privacy and permissions
 
-Sonetro has no app account requirement, advertising SDK, or analytics SDK. Library data, preferences, playlists, and listening history are kept on the device. When you configure a personal server, the app connects to that server for the features you choose to use.
+Sonetro has no app account requirement, advertising SDK, or analytics SDK. Library data, preferences, playlists, and listening history are kept on the device. When you configure a personal server, the app connects to that server for the features you choose to use. Online lyrics and artwork lookups send relevant track or artist metadata to their providers; device lyrics imports are stored locally.
 
 Android may ask for access to audio files and notifications. Background playback uses a foreground media service. Deleting or changing local files may trigger an Android system confirmation. Grant only the permissions needed for the features you use.
 
-## What's new in 1.1.929
+## What's new in 1.1.933
 
-- History and New adapt to unfolded and landscape screens with large, wide, and small artwork tiles and consistent gaps.
-- Settings uses a category sidebar and a readable-width detail panel on wider screens; regular phone layouts retain their familiar navigation.
-- Long-press a History tile and choose **Remove** to remove its history entry while keeping the song, library, and playback intact.
-- Widget artwork preserves its proportions, with coordinated sizing for controls and touch targets.
-- Refined Home artwork alignment and the developer credit's typography.
+- Embedded and online lyrics discovery, playback-based highlighting for timed lyrics, and device imports with replace/remove actions from the **lyrics** heading.
+- Verified artist portraits, refreshed artwork caches, and background-loading improvements that trigger the entrance when the image is ready.
+- Queue song taps open Live with the existing transition.
+- **Favorite songs** and **Most played** appear above custom playlists; favorites use the app's heart without a circle.
+- Updated repeat-one artwork and corrected drawer icon clipping.
+- **FILTER BY** and **ADD TO** dialogs cover the entire window, including system bars, in the current theme.
 
-[Read the full release notes and download 1.1.929](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.929)
+[Read the full release notes and download 1.1.933](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.933)
 
 ## Help and feedback
 
