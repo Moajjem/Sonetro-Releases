@@ -24,7 +24,7 @@ Playback continues in the background through a media session service. Library di
 <p align="center">
   <a href="https://github.com/Moajjem/Sonetro-Releases/releases/latest"><strong>Download the latest release</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.935">See what’s new</a>
+  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.936">See what’s new</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Moajjem/Sonetro-Releases/issues">Get help</a>
 </p>
@@ -46,7 +46,7 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 | | |
 | --- | --- |
 | Platform | Android 6.0 or newer |
-| Current release | [1.1.935](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.935) |
+| Current release | [1.1.936](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.936) |
 | Distribution | Signed APK in the [Releases](https://github.com/Moajjem/Sonetro-Releases/releases) section |
 | Account | No Sonetro account required |
 
@@ -85,10 +85,10 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 
 To update, install the newer signed APK over the existing app. Keep the installed app in place if you want to retain its data and settings. Android accepts an in-place update only when the APK has the same application ID, a compatible signing certificate, and a suitable version code.
 
-**Release 1.1.935 verification:** SHA-256 of `Sonetro-1.1.935-release.apk`:
+**Release 1.1.936 verification:** SHA-256 of `Sonetro-1.1.936-release.apk`:
 
 ```text
-ac118b9b1ada379d5fdb33040c3d6cab3e0944c14af735477ba85ec8b2c305de
+5ef77d1676d1171d616a363846599de16641432343769b1139092680e51fd483
 ```
 
 ## How Sonetro is built
@@ -131,13 +131,12 @@ Sonetro has no app account requirement, advertising SDK, or analytics SDK. Libra
 
 Android may ask for access to audio files and notifications. Background playback uses a foreground media service. Deleting or changing local files may trigger an Android system confirmation. Grant only the permissions needed for the features you use.
 
-## What's new in 1.1.935
+## What's new in 1.1.936
 
-- **Live Lyrics:** follow timestamped lyrics during playback, read embedded or online lyrics, and import or remove lyrics from your device.
-- **Now Playing queue:** see upcoming songs, choose what plays next, and manage the queue from the player. Selecting a song opens Live with the existing transition.
-- **A refreshed interface:** UI Sans typography across the app and widgets, refined artist visuals and search, and cleaner Home heading spacing.
+- **Jellyfin connection fix:** a verified connection now leaves the connecting state while the music library loads. Unresponsive checks time out so the app can show an error instead of waiting indefinitely.
+- Includes Live Lyrics, the Now Playing queue, UI Sans typography, and the recent Home layout refinements.
 
-[Release notes and download](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.935)
+[Release notes and download](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.936)
 
 ## Help and feedback
 
