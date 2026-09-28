@@ -133,8 +133,9 @@ Android may ask for access to audio files and notifications. Background playback
 
 ## What's new in 1.1.935
 
-- The panoramic Home's **music** masthead sits slightly lower, improving its spacing above the page headings.
-- Includes the recent Live lyrics and Now Playing queue improvements, UI Sans typography, and updated artist artwork.
+- **Live Lyrics:** follow timestamped lyrics during playback, read embedded or online lyrics, and import or remove lyrics from your device.
+- **Now Playing queue:** see upcoming songs, choose what plays next, and manage the queue from the player. Selecting a song opens Live with the existing transition.
+- **A refreshed interface:** UI Sans typography across the app and widgets, refined artist visuals and search, and cleaner Home heading spacing.
 
 [Release notes and download](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.935)
 
