@@ -34,7 +34,7 @@ Playback continues in the background through a media session service. Library di
 ## Meet your music
 
 <p align="center">
-  <img src="assets/demo-preview.gif" width="320" alt="Sonetro animated demo">
+  <img src="assets/live-preview.png" width="320" alt="Sonetro Live player with artist background and playback controls">
 </p>
 
 <p align="center"><strong>Live</strong> · <strong>Collection</strong> · <strong>History</strong> · <strong>New</strong></p>
