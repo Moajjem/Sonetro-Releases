@@ -24,7 +24,7 @@ Playback continues in the background through a media session service. Library di
 <p align="center">
   <a href="https://github.com/Moajjem/Sonetro-Releases/releases/latest"><strong>Download the latest release</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.947">See what’s new</a>
+  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.948">See what’s new</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Moajjem/Sonetro-Releases/issues">Get help</a>
 </p>
@@ -46,7 +46,7 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 | | |
 | --- | --- |
 | Platform | Android 6.0 or newer |
-| Current release | [1.1.947](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.947) |
+| Current release | [1.1.948](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.948) |
 | Distribution | Signed APK in the [Releases](https://github.com/Moajjem/Sonetro-Releases/releases) section |
 | Account | No Sonetro account required |
 
@@ -77,6 +77,16 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 - Browse Settings with a category sidebar on wide screens, or the familiar swipeable layout on regular phones.
 - Use layouts that respond to screen size, display density, and text settings.
 
+## What’s new in 1.1.948
+
+- Fixed delayed search results overwriting typing and deletion; preserved Android cursor, selection, and composing text.
+- Added saved-server suggestions beneath the server-address field, filtered as you type.
+- Made removal follow its screen: History entries, New dismissals, playlist membership, and offline downloads remain separate from library removal.
+- Improved Back navigation, reduced repeated destinations, and removed scrolling back to Live. Leaving the app keeps background playback available.
+- Matched the Add to dialog to the shared source-filter dialog and simplified lyrics attribution.
+
+Read the [full release notes](release-notes/1.1.948.md).
+
 ## Install or update
 
 1. Open the [latest release](https://github.com/Moajjem/Sonetro-Releases/releases/latest) on your Android device.
@@ -85,10 +95,10 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 
 To update, install the newer signed APK over the existing app. Keep the installed app in place if you want to retain its data and settings. Android accepts an in-place update only when the APK has the same application ID, a compatible signing certificate, and a suitable version code.
 
-**Release 1.1.947 verification:** SHA-256 of `Sonetro-1.1.947-release.apk`:
+**Release 1.1.948 verification:** SHA-256 of `Sonetro-1.1.948-release.apk`:
 
 ```text
-8f50f10df60ad1f9341b3cc271efa53aa8d564354eca10f30616fd711d714a17
+1f3365b1d6e6e089627e22a1c314e0c3e8aa0a7b76ece5467c8c26b4feaa6f9d
 ```
 
 ## How Sonetro is built
@@ -130,18 +140,6 @@ A network connection is needed for server discovery, streaming, synchronization,
 Sonetro has no app account requirement, advertising SDK, or analytics SDK. Library data, preferences, playlists, and listening history are kept on the device. When you configure a personal server, the app connects to that server for the features you choose to use. Online lyrics and artwork lookups send relevant track or artist metadata to their providers; device lyrics imports are stored locally.
 
 Android may ask for access to audio files and notifications. Background playback uses a foreground media service. Deleting or changing local files may trigger an Android system confirmation. Grant only the permissions needed for the features you use.
-
-## What's new in 1.1.947
-
-Sonetro 1.1.947 fixes stale play/pause controls and improves playback-state consistency across the app.
-
-- Fixed Live showing a play button after starting playback from an album or another direct playback action.
-- Cleared outdated transport commands during server recovery, retries, and playback restoration after artwork edits.
-- Prevented late callbacks from a disconnected controller from changing the current playback state.
-- Fixed an old end-of-track reason hiding the pause button after playback resumes.
-- Preserved paused playback when replacing a queue, and retained deliberate pauses during audio-focus interruptions.
-
-[Complete release notes and download](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.947)
 
 ## Help and feedback
 
