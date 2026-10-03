@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Android-6.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 6.0 or newer">
+  <img src="https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white" alt="Android 7.0 or newer">
   <img src="https://img.shields.io/badge/Kotlin-2.2-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin 2.2">
   <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4" alt="Jetpack Compose interface">
   <img src="https://img.shields.io/badge/Playback-Media3-0D9488" alt="Media3 playback">
@@ -24,7 +24,7 @@ Playback continues in the background through a media session service. Library di
 <p align="center">
   <a href="https://github.com/Moajjem/Sonetro-Releases/releases/latest"><strong>Download the latest release</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.948">See what’s new</a>
+  <a href="https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.952">See what’s new</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Moajjem/Sonetro-Releases/issues">Get help</a>
 </p>
@@ -45,8 +45,8 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 
 | | |
 | --- | --- |
-| Platform | Android 6.0 or newer |
-| Current release | [1.1.948](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.948) |
+| Platform | Android 7.0 or newer |
+| Current release | [1.1.952](https://github.com/Moajjem/Sonetro-Releases/releases/tag/v1.1.952) |
 | Distribution | Signed APK in the [Releases](https://github.com/Moajjem/Sonetro-Releases/releases) section |
 | Account | No Sonetro account required |
 
@@ -77,15 +77,16 @@ Swipe through a panoramic Home, revisit songs in History, discover recent additi
 - Browse Settings with a category sidebar on wide screens, or the familiar swipeable layout on regular phones.
 - Use layouts that respond to screen size, display density, and text settings.
 
-## What’s new in 1.1.948
+## What’s new in 1.1.952
 
-- Fixed delayed search results overwriting typing and deletion; preserved Android cursor, selection, and composing text.
-- Added saved-server suggestions beneath the server-address field, filtered as you type.
-- Made removal follow its screen: History entries, New dismissals, playlist membership, and offline downloads remain separate from library removal.
-- Improved Back navigation, reduced repeated destinations, and removed scrolling back to Live. Leaving the app keeps background playback available.
-- Matched the Add to dialog to the shared source-filter dialog and simplified lyrics attribution.
+- Added a larger **shuffle all** action to the music list, with queue preparation moved off the UI thread.
+- Album artwork taps now start playback and open Live, including albums inside artist pages.
+- Refined artist-name and cloud-icon alignment; now-playing indicators appear only in Queue.
+- Removed the repeated third heading from the artist’s looping albums/songs view.
+- Refined History/New panorama drawing and slightly extended the New → Live background trail.
+- **Android 7.0 or newer is now required.**
 
-Read the [full release notes](release-notes/1.1.948.md).
+Read the [full release notes](release-notes/1.1.952.md).
 
 ## Install or update
 
@@ -95,10 +96,10 @@ Read the [full release notes](release-notes/1.1.948.md).
 
 To update, install the newer signed APK over the existing app. Keep the installed app in place if you want to retain its data and settings. Android accepts an in-place update only when the APK has the same application ID, a compatible signing certificate, and a suitable version code.
 
-**Release 1.1.948 verification:** SHA-256 of `Sonetro-1.1.948-release.apk`:
+**Release 1.1.952 verification:** SHA-256 of `Sonetro-1.1.952-release.apk`:
 
 ```text
-1f3365b1d6e6e089627e22a1c314e0c3e8aa0a7b76ece5467c8c26b4feaa6f9d
+cbb8866c78ec70e419312153480e23f4fca7192f90fca5243efe1cd363e4bdf8
 ```
 
 ## How Sonetro is built
